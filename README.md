@@ -10,8 +10,7 @@ networking, compute, storage, and beyond.
 
 | Lab | Topic | Status |
 |---|---|---|
-| [Lab 1 — Account Setup & IAM](./lab-01-account-setup/) | Creating an AWS account, securing root, IAM users, groups, roles, billing alerts | In progress |
-| [Lab 2 — Networking Fundamentals](./lab-02-networking/) | Custom VPC, subnets, Internet Gateway, route tables, security groups | Completed |
+| [Lab 1 — Account Setup & IAM](./lab-01-account-setup/) | Creating an AWS account, securing root, IAM users, groups, roles, billing alerts | Completed |
 
 ---
 
