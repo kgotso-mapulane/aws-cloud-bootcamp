@@ -29,6 +29,11 @@ A VPC network from scratch with the following components:
 
 ## Architecture
 
+![VPC Architecture Diagram](./Architecture.png)
+
+<details>
+<summary>ASCII version</summary>
+
 ```
 ┌──────────────────────────────────────────────────────────┐
 │  VPC: bootcamp-vpc (10.0.0.0/16)                         │
@@ -54,6 +59,8 @@ A VPC network from scratch with the following components:
                             │
                         Internet
 ```
+
+</details>
 
 ---
 
