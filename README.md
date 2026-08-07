@@ -16,6 +16,16 @@ networking, compute, storage, and beyond.
 
 ---
 
+## Core Concepts
+
+Important concepts that span across multiple labs and are worth understanding deeply.
+
+| Concept | Description |
+|---|---|
+| [3-Tier Application Architecture](./core-concepts/3-tier-architecture.md) | How presentation, application, and data layers are structured and secured in AWS |
+
+---
+
 ## Approach
 
 Each lab follows the same pattern:
