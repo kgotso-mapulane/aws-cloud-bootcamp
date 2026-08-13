@@ -13,6 +13,7 @@ networking, compute, storage, and beyond.
 | [Lab 1 — Account Setup & IAM](./lab-01-account-setup/) | Creating an AWS account, securing root, IAM users, groups, roles, billing alerts | Completed |
 | [Lab 2 — Networking Fundamentals](./lab-02-networking/) | Custom VPC, subnets, Internet Gateway, route tables, security groups | Completed |
 | [Lab 3 — Compute: EC2 & Serverless](./lab-03-compute/) | EC2 web server, IAM role attachment, user data, AWS Lambda | Completed |
+| [Lab 4 — Storage: S3, EBS & Lifecycle](./lab-04-storage/) | S3 versioning, lifecycle rules, EBS volumes, snapshots | Completed |
 
 ---
 
