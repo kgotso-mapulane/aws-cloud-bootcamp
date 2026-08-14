@@ -291,13 +291,13 @@ By default, instances launched in a subnet don't get a public IP. You need to en
 
 Before calling the lab done, verify each component:
 
-- [ ] **VPC** `bootcamp-vpc` exists with CIDR `10.0.0.0/16`
-- [ ] **Public subnet** `public-subnet-a` exists with CIDR `10.0.1.0/24` in AZ-a
-- [ ] **Private subnet** `private-subnet-b` exists with CIDR `10.0.2.0/24` in AZ-b (different from AZ-a)
-- [ ] **Internet Gateway** `bootcamp-igw` is **attached** to `bootcamp-vpc`
-- [ ] **Route table** `public-rt` has routes: `10.0.0.0/16 → local` and `0.0.0.0/0 → bootcamp-igw`
-- [ ] **Route table** `public-rt` is associated with `public-subnet-a`
-- [ ] **Public subnet** has auto-assign public IP enabled
+- [x] **VPC** `bootcamp-vpc` exists with CIDR `10.0.0.0/16`
+- [x] **Public subnet** `public-subnet-a` exists with CIDR `10.0.1.0/24` in AZ-a
+- [x] **Private subnet** `private-subnet-b` exists with CIDR `10.0.2.0/24` in AZ-b (different from AZ-a)
+- [x] **Internet Gateway** `bootcamp-igw` is **attached** to `bootcamp-vpc`
+- [x] **Route table** `public-rt` has routes: `10.0.0.0/16 → local` and `0.0.0.0/0 → bootcamp-igw`
+- [x] **Route table** `public-rt` is associated with `public-subnet-a`
+- [x] **Public subnet** has auto-assign public IP enabled
 - [ ] **Security group** `web-sg` is in `bootcamp-vpc` with inbound rules for 22, 80, 443
 - [ ] **Private subnet** has NO route to the IGW
 

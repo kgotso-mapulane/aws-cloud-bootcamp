@@ -300,13 +300,13 @@ def lambda_handler(event, context):
 
 ## Verification Checklist
 
-- [ ] EC2 instance `web-01` launched in `public-subnet-a` with a public IP
-- [ ] Web page visible in browser at `http://<public-ip>` showing the AZ
-- [ ] Connected via EC2 Instance Connect — Apache confirmed running
-- [ ] `EC2-S3-ReadOnly` role attached — visible on Security tab
-- [ ] Lambda function `hello-bootcamp` created and deployed
-- [ ] Lambda test returns status 200 with the greeting message
-- [ ] EC2 instance terminated after the lab
+- [x] EC2 instance `web-01` launched in `public-subnet-a` with a public IP
+- [x] Web page visible in browser at `http://<public-ip>` showing the AZ
+- [x] Connected via EC2 Instance Connect — Apache confirmed running
+- [x] `EC2-S3-ReadOnly` role attached — visible on Security tab
+- [x] Lambda function `hello-bootcamp` created and deployed
+- [x] Lambda test returns status 200 with the greeting message
+- [x] EC2 instance terminated after the lab
 
 ---
 

@@ -258,13 +258,13 @@ Snapshots are incremental — the first one copies everything, subsequent ones o
 
 ## Verification Checklist
 
-- [ ] S3 bucket created with versioning enabled and public access blocked
-- [ ] Uploaded a file twice with the same name and saw both versions
-- [ ] Lifecycle rule created with transition and expiration actions
-- [ ] EBS volume created in the same AZ as the EC2 instance
-- [ ] Volume attached, formatted, and mounted at `/data`
-- [ ] Snapshot created and shows Completed status
-- [ ] All resources deleted after the lab
+- [x] S3 bucket created with versioning enabled and public access blocked
+- [x] Uploaded a file twice with the same name and saw both versions
+- [x] Lifecycle rule created with transition and expiration actions
+- [x] EBS volume created in the same AZ as the EC2 instance
+- [x] Volume attached, formatted, and mounted at `/data`
+- [x] Snapshot created and shows Completed status
+- [x] All resources deleted after the lab
 
 ---
 

@@ -82,6 +82,13 @@ need a separate outbound rule for return traffic. NACLs work the opposite way
 (stateless) — they don't track connections, so you need explicit rules for
 both directions.
 
+**Important: stateful/stateless here is about network connections, not application design.**
+The same words are used in a completely different context when talking about
+application architecture. There, stateful means a server remembers a user's
+session locally; stateless means the server holds nothing and session data
+lives in shared storage. Same words, two different layers — network traffic
+vs application sessions. The context always makes clear which one is meant.
+
 **The Internet Gateway lives inside the VPC, not outside it.**
 AWS says "attached to VPC" which confused me at first. The IGW is inside the
 VPC boundary but not inside any subnet. It sits at the VPC edge.
