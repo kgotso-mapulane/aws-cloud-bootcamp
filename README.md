@@ -15,6 +15,7 @@ networking, compute, storage, and beyond.
 | [Lab 3 — Compute: EC2 & Serverless](./lab-03-compute/) | EC2 web server, IAM role attachment, user data, AWS Lambda | Completed |
 | [Lab 4 — Storage: S3, EBS & Lifecycle](./lab-04-storage/) | S3 versioning, lifecycle rules, EBS volumes, snapshots | Completed |
 | [Lab 5 — Scalable, Load-Balanced Web App](./lab-05-scalability/) | Launch Template, ALB, Auto Scaling Group, target tracking, session stickiness | Completed |
+| [Lab 6 — Account Budgets & Cost Alerts](./lab-06-budgets/) | Monthly cost budget, zero-spend tripwire, SNS fan-out alerting, Cost Explorer | Completed |
 
 ---
 
@@ -36,6 +37,7 @@ Each lab follows the same pattern:
 - Understand the concepts before touching the console
 - Draw the architecture manually before building it
 - Complete the lab in the AWS Console
+- Screenshot key console states as evidence of the build
 - Document what clicked and what was confusing
 
 The goal is genuine understanding, not just following steps.

@@ -142,6 +142,16 @@ see it enforced live in an AWS environment. That moment made it real.
 - [x] EC2-S3-ReadOnly role created
 - [x] Resources cleaned up (keeping what's needed for Lab 3)
 
+## Screenshots
+
+- [x] IAM console — Users list showing admin user and auditor user → `screenshots/01-iam-users.png`
+- [x] IAM console — Admins group with AdministratorAccess policy attached → `screenshots/02-admin-group.png`
+- [x] IAM console — Security credentials tab showing MFA enabled on admin user → `screenshots/03-mfa-enabled.png`
+- [x] IAM console — EC2-S3-ReadOnly role detail page → `screenshots/04-S3-readonly.png`
+- [x] IAM console — EC2-S3-ReadOnly trust relationship showing ec2.amazonaws.com → `screenshots/05-trust-relationship.png`
+- [x] Billing console — Budget dashboard showing both budgets → `screenshots/06-budgets.png`
+- [x] S3 bucket creation attempt as auditor user — access denied error → `screenshots/07-access-denied.png`
+
 ---
 
 *Part of my AWS Cloud Bootcamp — see the root [README](../README.md) for all labs.*
