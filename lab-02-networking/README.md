@@ -150,6 +150,13 @@ you'll need a /23 (512 addresses, 507 usable).
 - [x] Verification checklist passed
 - [x] Resources cleaned up
 
+## Screenshots
+
+- [x] VPC console — resource map showing bootcamp-vpc with all subnets and IGW → `screenshots/01-bootcamp-vpc.png`
+- [x] Route tables — public-rt showing 0.0.0.0/0 → IGW entry → `screenshots/02-public route.png`
+- [x] Security group web-sg — inbound rules showing ports 22, 80, 443 → `screenshots/03-web-sg.png`
+- [x] Subnets list — public and private subnets with their CIDR blocks visible → `screenshots/04-subnets.png`
+
 ---
 
 *Part of my AWS Cloud Bootcamp — see the root README for all labs.*
