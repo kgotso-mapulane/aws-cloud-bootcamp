@@ -161,6 +161,13 @@ cost more than it needs to?" before clicking launch builds the right habits earl
 - [x] Lambda function created, deployed, and tested successfully
 - [x] EC2 instance terminated after lab completion
 
+## Screenshots
+
+- [x] EC2 console — web-01 instance running, showing public IP and AZ → `screenshots/01-ec2-running.png`
+- [x] Browser — Apache web page served from web-01 showing instance ID and AZ → `screenshots/02-apache-webpage.png`
+- [x] EC2 console — Security tab on web-01 showing EC2-S3-ReadOnly role attached → `screenshots/03-iam-role-attached.png`
+- [x] Lambda console — hello-bootcamp function with successful test result (status 200) → `screenshots/04-lambda test.png`
+
 ---
 
 *Part of my AWS Cloud Bootcamp — see the root [README](../README.md) for all labs.*
