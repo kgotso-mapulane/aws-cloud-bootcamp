@@ -225,6 +225,14 @@ Standard.
 - [x] Snapshot created and confirmed completed
 - [x] All storage resources deleted after lab
 
+## Screenshots
+
+- [x] S3 console — bucket with versioning enabled badge visible → `screenshots/01-s3-versioning-enabled.png`
+- [x] S3 console — object versions panel showing two versions of the same file → `screenshots/02-object-versions.png`
+- [x] S3 console — lifecycle rule archive-and-expire showing transition actions → `screenshots/03-lifecycle-rule.png`
+- [x] EC2 console — Snapshot in Completed state → `screenshots/04-ebs-snapshot.png`
+- [x] EC2 Instance Connect — df -h output confirming /data volume mounted → `screenshots/06-volume-mounted.png`
+
 ---
 
 *Part of my AWS Cloud Bootcamp — see the root [README](../README.md) for all labs.*
