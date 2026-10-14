@@ -186,6 +186,14 @@ ALB, then target group, then launch template, then security groups.
 - [x] Stickiness confirmed — traffic pinned after enabling
 - [x] Entire stack torn down
 
+## Screenshots
+
+- [x] EC2 console — ALB app-alb showing Active state and DNS name → `screenshots/02-alb-active.png`
+- [x] Browser — colour instance pages (green / yellow / blue) proving round-robin → `screenshots/04-colour-blue.png`, `screenshots/05-colour-green.png`, `screenshots/06-colour-yellow.png`
+- [x] EC2 console — ASG activity log showing instance replacement after manual termination → `screenshots/07-asg-activity.png`
+- [x] EC2 console — Target group web-tg with healthy instances in both AZs → `screenshots/03-target -group-healthy.png`
+- [x] EC2 console — Launch template web-lt detail page → `screenshots/01-web-lt.png`
+
 ---
 
 *Part of my AWS Cloud Bootcamp — see the root [README](../README.md) for all labs.*
