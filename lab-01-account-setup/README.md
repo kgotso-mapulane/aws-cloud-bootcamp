@@ -22,7 +22,7 @@ An IAM identity structure from scratch with the following components:
 | Budget alert | Zero-spend threshold + SMS | Early warning against unplanned charges |
 | Password policy | 14 chars, complexity, 90-day expiry | Enforced account-wide for all IAM users |
 | Group `Admins` | AdministratorAccess policy | Admin permissions inherited by admin user |
-| IAM user `YourName-admin` | In Admins group, MFA enabled | Daily-use identity — replaces root for all lab work |
+| IAM user `kgotso-admin` | In Admins group, MFA enabled | Daily-use identity — replaces root for all lab work |
 | Group `ReadOnly` | ReadOnlyAccess policy | View-only permissions for auditor user |
 | IAM user `auditor` | In ReadOnly group | Least-privilege demo — can view, cannot modify |
 | Role `EC2-S3-ReadOnly` | Trusted entity: EC2, AmazonS3ReadOnlyAccess | Service role for Lab 3 EC2 instance |
@@ -42,7 +42,7 @@ AWS Account
 │
 ├── Admins Group
 │   └── Policy: AdministratorAccess
-│       └── User: YourName-admin (MFA enabled) ← used for all lab work
+│       └── User: kgotso-admin (MFA enabled) ← used for all lab work
 │
 ├── ReadOnly Group
 │   └── Policy: ReadOnlyAccess
