@@ -4,6 +4,31 @@ A running log of Git commands used throughout the bootcamp, with notes on what e
 
 ---
 
+## The Mental Model — Add, Commit, Push
+
+Think of it like packing and shipping a box:
+
+| Step | Command | What it does |
+|---|---|---|
+| Put things in the box | `git add` | Select files to include |
+| Seal the box with a label | `git commit -m "message"` | Lock in the snapshot with a description |
+| Ship the box | `git push` | Send it to GitHub |
+
+Every time, same three steps in the same order:
+
+```
+add → commit → push
+```
+
+The only things that change are which files you add and the commit message.
+
+**Mental check before each push:**
+1. What files changed? → `git add` those
+2. What did I do? → write that as the commit message
+3. Send it → `git push`
+
+---
+
 ## Setting Up a Repo
 
 ```bash
@@ -14,7 +39,12 @@ Initialises a brand-new Git repository in the current folder. Creates the hidden
 ```bash
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
 ```
-Links your local repo to a remote repo on GitHub. `origin` is just the conventional name for your main remote.
+Links your local repo to a remote repo on GitHub. `origin` is just the conventional name for your main remote. This URL is saved inside the hidden `.git` folder — it's how `git push` knows exactly where on GitHub to send your changes.
+
+To verify what remote is configured at any time:
+```bash
+git remote -v
+```
 
 ```bash
 git branch -M main
@@ -39,6 +69,11 @@ Shows what files have changed, what's staged, and what's untracked. Run this bef
 git add .
 ```
 Stages all changed and new files in the current folder ready for a commit.
+
+```bash
+git add .
+```
+Stages all changed, new, and deleted files in the current directory and all subdirectories at once. Fine to use on personal projects where all changes belong together. Be careful on shared repos — use specific file paths instead to avoid accidentally staging unfinished work or sensitive files. A `.gitignore` file excludes files that should never be committed (API keys, `.env`, local config), making `git add .` safer in team environments.
 
 ```bash
 git add filename.md
