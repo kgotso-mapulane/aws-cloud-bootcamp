@@ -5,7 +5,7 @@
 This lab applies AWS networking concepts through a hands-on build of a custom VPC with public and private subnets, routing, and security groups using the AWS Console
 
 
-**Interface:** AWS Console
+**Interface:** AWS Console 
 **Goal:** Build and understand the networking foundation for workloads deployed within AWS
 
 ---
