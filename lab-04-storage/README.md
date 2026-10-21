@@ -2,13 +2,11 @@
 
 ## What This Is
 
-This is my personal study work as I learn AWS from scratch. This lab covers
-creating an S3 bucket with versioning and lifecycle rules, and attaching an
-EBS volume to an EC2 instance and snapshotting it — all from the AWS Console.
+This lab applies AWS storage concepts through hands-on work with S3 and EBS. It covers configuring S3 versioning and lifecycle rules, attaching an EBS volume to an EC2 instance, and creating an EBS snapshot using the AWS Console.
 
-**Level:** Some IT background  
+  
 **Interface:** AWS Console  
-**Goal:** Understand the difference between object storage (S3) and block storage (EBS) and when to use each
+**Goal:** Build and compare object and block storage solutions using Amazon S3 and EBS, and understand when each is appropriate
 
 ---
 
