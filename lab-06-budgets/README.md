@@ -2,14 +2,11 @@
 
 ## What This Is
 
-This is my personal study work as I learn AWS from scratch. This lab puts a
-financial safety net under everything built so far — monthly cost budgets with
-tiered alert thresholds, a zero-spend tripwire, SNS-based team alerting, and
-a first look at Cost Explorer.
+This lab applies AWS cost-management concepts by configuring monthly budgets, tiered cost alerts, a zero-spend alert, SNS-based notifications, and exploring AWS Cost Explorer.
 
-**Level:** Some IT background  
+  
 **Interface:** AWS Console  
-**Goal:** Make spend visible and get alerted before costs become a surprise
+**Goal:** Implement cost monitoring and proactive alerting to improve visibility and control of AWS spending.
 
 ---
 
