@@ -2,13 +2,11 @@
 
 ## What This Is
 
-This is my personal study work as I learn AWS from scratch. This lab covers
-securing a brand-new AWS account, locking down the root user, and building a
-least-privilege identity model using IAM — all from the AWS Console.
+This lab applies AWS identity and access management concepts by securing an AWS account and building a least-privilege identity model using IAM. It covers root account protection, MFA, IAM users and groups, permissions, and service roles using the AWS Console
 
-**Level:** Some IT background  
+  
 **Interface:** AWS Console  
-**Goal:** Understand AWS identity and access before touching any other service
+**Goal:** Build and validate a secure, least-privilege identity and access foundation for AWS workloads.
 
 ---
 
