@@ -2,13 +2,11 @@
 
 ## What This Is
 
-This is my personal study work as I learn AWS from scratch. This lab covers
-building a custom VPC with public and private subnets, routing, and security
-groups using the AWS Console.
+This lab applies AWS networking concepts through a hands-on build of a custom VPC with public and private subnets, routing, and security groups using the AWS Console
 
-**Level:** Beginner (some IT background)
+
 **Interface:** AWS Console
-**Goal:** Understand how AWS networking works before touching any other service
+**Goal:** Build and understand the networking foundation for workloads deployed within AWS
 
 ---
 
