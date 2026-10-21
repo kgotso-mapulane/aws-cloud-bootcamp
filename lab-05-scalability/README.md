@@ -2,14 +2,11 @@
 
 ## What This Is
 
-This is my personal study work as I learn AWS from scratch. This lab builds on
-the single EC2 instance from Lab 3 and turns it into a resilient, elastic web
-tier using a Launch Template, Application Load Balancer, and Auto Scaling Group
-— all from the AWS Console.
+This lab applies AWS scalability and high-availability concepts by building on the EC2 web server from Lab 3. It uses a Launch Template, Application Load Balancer, and Auto Scaling Group to create a resilient and scalable web tier using the AWS Console.
 
-**Level:** Some IT background  
+  
 **Interface:** AWS Console  
-**Goal:** Understand how to make a web tier highly available, self-healing, and scalable
+**Goal:** Build a highly available, self-healing, and scalable web tier using load balancing and Auto Scaling
 
 ---
 
