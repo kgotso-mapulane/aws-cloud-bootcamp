@@ -46,9 +46,6 @@ The goal is genuine understanding, not just following steps.
 
 ## Stack
 
-- AWS Console (no CLI or IaC yet — console first to understand what each service does)
+- AWS Console 
 - AWS Free Tier
 
----
-
-*Started July 2026*
