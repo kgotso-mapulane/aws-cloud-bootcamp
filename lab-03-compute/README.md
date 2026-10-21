@@ -2,13 +2,11 @@
 
 ## What This Is
 
-This is my personal study work as I learn AWS from scratch. This lab covers
-launching an EC2 web server into the VPC from Lab 2, attaching an IAM role,
-and contrasting it with a Lambda serverless function — all from the AWS Console.
+This lab applies AWS compute concepts through a hands-on build using EC2 and Lambda. It covers launching an EC2 web server into the VPC from Lab 2, attaching an IAM role, and comparing server-based and serverless compute using the AWS Console.
 
-**Level:** Some IT background  
+  
 **Interface:** AWS Console  
-**Goal:** Understand the difference between managing a server (EC2) and going serverless (Lambda)
+**Goal:** Build and compare server-based and serverless compute solutions using EC2 and Lambda
 
 ---
 
