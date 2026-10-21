@@ -6,6 +6,7 @@ This lab applies AWS networking concepts through a hands-on build of a custom VP
 
 
 **Interface:** AWS Console 
+
 **Goal:** Build and understand the networking foundation for workloads deployed within AWS
 
 ---
